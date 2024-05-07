@@ -18,7 +18,7 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 #### Clone the repository
 
 ```shell
-git clone https://git.lilay.dev/<your_user>/<your_repository> ~/.config/nvim
+git clone https://git.lilay.dev/lilay/AstroNvim-Config ~/.config/nvim
 ```
 
 #### Start Neovim

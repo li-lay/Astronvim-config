@@ -1,6 +1,7 @@
 # ignore some files
 
-/lazy-lock*.json
+lazy-lock*.json
+lazy-lock.json
 
 .history
 .vscode
