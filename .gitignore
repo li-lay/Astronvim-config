@@ -1,0 +1,6 @@
+# ignore some files
+
+/lazy-lock*.json
+
+.history
+.vscode
