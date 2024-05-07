@@ -22,7 +22,6 @@ return {
 
   -- Mothion plugins
   { import = "astrocommunity.motion.leap-nvim" },
-  { import = "astrocommunity.motion.tabout-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
 
   -- Extras
@@ -31,6 +30,5 @@ return {
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.syntax.vim-cool" },
-  -- { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.programming-language-support.web-tools-nvim" },
 }
