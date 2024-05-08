@@ -27,6 +27,7 @@ return {
   { import = "astrocommunity.motion.tabout-nvim" },
 
   -- Extras
+  { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.indent.indent-rainbowline" },
