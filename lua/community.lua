@@ -24,6 +24,7 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.harpoon" },
+  { import = "astrocommunity.motion.tabout-nvim" },
 
   -- Extras
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
