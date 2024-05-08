@@ -20,9 +20,10 @@ return {
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.editing-support.suda-vim" },
 
-  -- Mothion plugins
+  -- Motion plugins
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.motion.harpoon" },
 
   -- Extras
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
