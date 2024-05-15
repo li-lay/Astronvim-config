@@ -6,25 +6,16 @@ return {
       mappings = {
         -- first key is the mode
         n = {
-          -- second key is the lefthand side of the map
-          -- mappings seen under group name "Buffer"
-          -- ["<Leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
-          -- ["<Leader>bD"] = {
-          --   function()
-          --     require("astroui.status").heirline.buffer_picker(function(bufnr)
-          --       require("astrocore.buffer").close(bufnr)
-          --     end)
-          --   end,
-          --   desc = "Pick to close",
-          -- },
-          -- tables with the `name` key will be registered with which-key if it's installed
-          -- this is useful for naming menus
-          -- ["<Leader>b"] = { name = "Buffers" },
-          -- quick save
-          -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+          -- Move lines up&&down
+          -- ["<A-j>"] = { ":m .+1<CR>==", desc = "Move line up" },
+          -- ["<A-k>"] = { ":m .-2<CR>==", desc = "Move line down" },
+
+          -- Move cursor to the beginning||end
+          ["H"] = { "^", desc = "Move cursor to the beginning of line" },
+          ["L"] = { "$", desc = "Move cursor to the end of line" },
         },
         i = {
-
+          -- Can't live without
           ["kj"] = { "<esc>", desc = "Quick exit to normal mode" },
         },
         t = {
