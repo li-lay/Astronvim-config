@@ -26,7 +26,7 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.tabout-nvim" },
-  -- { import = "astrocommunity.motion.harpoon" },
+  { import = "astrocommunity.motion.harpoon" },
 
   -- Extras
   { import = "astrocommunity.workflow.hardtime-nvim" },
@@ -35,4 +35,7 @@ return {
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.syntax.vim-cool" },
   { import = "astrocommunity.programming-language-support.web-tools-nvim" },
+
+  -- Disable
+  { import = "astrocommunity.recipes.disable-tabline" },
 }
