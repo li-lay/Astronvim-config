@@ -27,7 +27,7 @@ return {
   { import = "astrocommunity.motion.harpoon" },
 
   -- Extras
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.project.nvim-spectre" },
